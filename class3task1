@@ -14,7 +14,7 @@ class StringList:
     def __str__(self):
         return str(self._data)
 
-my_string_list = StringList(3, 4.0, ["d", "f", "y"])
+my_string_list = StringList(4, 5.0, ["k", "l", "m"])
 
 for el in my_string_list:
     assert type(el) == str
